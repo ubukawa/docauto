@@ -3,7 +3,7 @@ docker practice with hfu/autonomy
 
 # How to used
 git clone git@github.com:ubukawa/docauto  
-cd dockout  
+cd docauto  
 docker build -t docauto .  
 docker run -it --rm -v ${PWD}:/data docauto  
 
