@@ -8,4 +8,7 @@ docker build -t docauto .
 docker run -it --rm -v ${PWD}:/data docauto  
 
 cd autonomy  
+npm install  
+npm update  
 rake  
+node index.js
