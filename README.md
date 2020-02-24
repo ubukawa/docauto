@@ -10,5 +10,6 @@ docker run -it --rm -v ${PWD}:/data docauto
 cd autonomy  
 npm install  
 npm update  
+vi config/default.hjson  
 rake  
 node index.js
